@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Header(){
+function Header(props) {
   return(
     <header>
-         Hello React Senac
+         <h1>{props.tittle}</h1>
     </header>
   )
 }
