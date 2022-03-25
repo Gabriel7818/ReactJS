@@ -1,11 +1,10 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     <>
-      <h1>
-        São Paulo
-      </h1>
+      <Header/>
       <h2>
         Senac Campinas
       </h2>
